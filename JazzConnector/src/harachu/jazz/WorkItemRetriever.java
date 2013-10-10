@@ -60,10 +60,10 @@ public class WorkItemRetriever {
 		LogManager.getLogManager().readConfiguration(
 				WorkItemRetriever.class
 						.getResourceAsStream("logging.properties"));
-		String repositoryURI = "https://chm01.dv.jp.honda.com:9443/jazz/";
-		String projectName = "JTST";// "S.T.D. AreaPartner
-		String userId = "JP203998";
-		String password = "honda1";
+		String repositoryURI = "https://www.hara-chu.com:9443/jazz/";
+		String projectName = "XXXX";// "S.T.D. AreaPartner
+		String userId = "XXXXXX";
+		String password = "XXXXX";
 		new WorkItemRetriever(repositoryURI, projectName, userId, password)
 				.execute();
 	}
